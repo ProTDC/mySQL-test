@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "HgCpPmiNl88dgVEWAsys8PhHYC8N6MCAZGSk2XLBWRhmDgasioe6sgTGf8ErZPzfg2wEhZM6XzeFoVUToHDX2Q==",
+  "dgSpecHash": "UvmqcMxeP3ovideY16OcpJPDTmlzBY88a5L3UQq8b3rOAaKduDpsdSH5aJUc83aWINbpV+4ijrH8oZfAXxWgEw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\protd\\source\\repos\\Misc stuff\\Misc\\mySQL test\\mySQL test\\mySQL test.csproj",
+  "projectFilePath": "C:\\Users\\protd\\source\\repos\\mySQL test\\mySQL test\\mySQL test.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\protd\\.nuget\\packages\\google.protobuf\\3.19.4\\google.protobuf.3.19.4.nupkg.sha512",
     "C:\\Users\\protd\\.nuget\\packages\\k4os.compression.lz4\\1.2.6\\k4os.compression.lz4.1.2.6.nupkg.sha512",
