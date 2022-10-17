@@ -1,0 +1,35 @@
+C:\Users\protd\source\repos\Misc stuff\Misc\mySQL test\mySQL test\bin\Debug\netcoreapp3.1\mySQL test.exe
+C:\Users\protd\source\repos\Misc stuff\Misc\mySQL test\mySQL test\bin\Debug\netcoreapp3.1\mySQL test.deps.json
+C:\Users\protd\source\repos\Misc stuff\Misc\mySQL test\mySQL test\bin\Debug\netcoreapp3.1\mySQL test.runtimeconfig.json
+C:\Users\protd\source\repos\Misc stuff\Misc\mySQL test\mySQL test\bin\Debug\netcoreapp3.1\mySQL test.runtimeconfig.dev.json
+C:\Users\protd\source\repos\Misc stuff\Misc\mySQL test\mySQL test\bin\Debug\netcoreapp3.1\mySQL test.dll
+C:\Users\protd\source\repos\Misc stuff\Misc\mySQL test\mySQL test\bin\Debug\netcoreapp3.1\mySQL test.pdb
+C:\Users\protd\source\repos\Misc stuff\Misc\mySQL test\mySQL test\bin\Debug\netcoreapp3.1\Google.Protobuf.dll
+C:\Users\protd\source\repos\Misc stuff\Misc\mySQL test\mySQL test\bin\Debug\netcoreapp3.1\K4os.Compression.LZ4.dll
+C:\Users\protd\source\repos\Misc stuff\Misc\mySQL test\mySQL test\bin\Debug\netcoreapp3.1\K4os.Compression.LZ4.Streams.dll
+C:\Users\protd\source\repos\Misc stuff\Misc\mySQL test\mySQL test\bin\Debug\netcoreapp3.1\K4os.Hash.xxHash.dll
+C:\Users\protd\source\repos\Misc stuff\Misc\mySQL test\mySQL test\bin\Debug\netcoreapp3.1\Microsoft.Win32.SystemEvents.dll
+C:\Users\protd\source\repos\Misc stuff\Misc\mySQL test\mySQL test\bin\Debug\netcoreapp3.1\MySql.Data.dll
+C:\Users\protd\source\repos\Misc stuff\Misc\mySQL test\mySQL test\bin\Debug\netcoreapp3.1\Ubiety.Dns.Core.dll
+C:\Users\protd\source\repos\Misc stuff\Misc\mySQL test\mySQL test\bin\Debug\netcoreapp3.1\ZstdNet.dll
+C:\Users\protd\source\repos\Misc stuff\Misc\mySQL test\mySQL test\bin\Debug\netcoreapp3.1\BouncyCastle.Crypto.dll
+C:\Users\protd\source\repos\Misc stuff\Misc\mySQL test\mySQL test\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+C:\Users\protd\source\repos\Misc stuff\Misc\mySQL test\mySQL test\bin\Debug\netcoreapp3.1\System.Drawing.Common.dll
+C:\Users\protd\source\repos\Misc stuff\Misc\mySQL test\mySQL test\bin\Debug\netcoreapp3.1\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\protd\source\repos\Misc stuff\Misc\mySQL test\mySQL test\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+C:\Users\protd\source\repos\Misc stuff\Misc\mySQL test\mySQL test\bin\Debug\netcoreapp3.1\System.Security.Permissions.dll
+C:\Users\protd\source\repos\Misc stuff\Misc\mySQL test\mySQL test\bin\Debug\netcoreapp3.1\System.Windows.Extensions.dll
+C:\Users\protd\source\repos\Misc stuff\Misc\mySQL test\mySQL test\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\protd\source\repos\Misc stuff\Misc\mySQL test\mySQL test\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\protd\source\repos\Misc stuff\Misc\mySQL test\mySQL test\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\protd\source\repos\Misc stuff\Misc\mySQL test\mySQL test\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\protd\source\repos\Misc stuff\Misc\mySQL test\mySQL test\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\protd\source\repos\Misc stuff\Misc\mySQL test\mySQL test\obj\Debug\netcoreapp3.1\mySQL test.csproj.AssemblyReference.cache
+C:\Users\protd\source\repos\Misc stuff\Misc\mySQL test\mySQL test\obj\Debug\netcoreapp3.1\mySQL test.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\protd\source\repos\Misc stuff\Misc\mySQL test\mySQL test\obj\Debug\netcoreapp3.1\mySQL test.AssemblyInfoInputs.cache
+C:\Users\protd\source\repos\Misc stuff\Misc\mySQL test\mySQL test\obj\Debug\netcoreapp3.1\mySQL test.AssemblyInfo.cs
+C:\Users\protd\source\repos\Misc stuff\Misc\mySQL test\mySQL test\obj\Debug\netcoreapp3.1\mySQL test.csproj.CoreCompileInputs.cache
+C:\Users\protd\source\repos\Misc stuff\Misc\mySQL test\mySQL test\obj\Debug\netcoreapp3.1\mySQL test.csproj.CopyComplete
+C:\Users\protd\source\repos\Misc stuff\Misc\mySQL test\mySQL test\obj\Debug\netcoreapp3.1\mySQL test.dll
+C:\Users\protd\source\repos\Misc stuff\Misc\mySQL test\mySQL test\obj\Debug\netcoreapp3.1\mySQL test.pdb
+C:\Users\protd\source\repos\Misc stuff\Misc\mySQL test\mySQL test\obj\Debug\netcoreapp3.1\mySQL test.genruntimeconfig.cache
