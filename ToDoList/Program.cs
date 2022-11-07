@@ -91,6 +91,10 @@ namespace mySQL_test
                     cmd.ExecuteNonQuery();
 
                     Console.WriteLine("\nAccount Created!");
+                    users.Clear();
+                    usernames.Clear();
+                    passwords.Clear();
+                    loop = 0;
                     mainProgram();
                 }
                 else
@@ -102,11 +106,12 @@ namespace mySQL_test
 
             static void Liste()
             {
+                Console.WriteLine("Hello!");
                 var s = Connection.strProvider;
                 string cs = $@"{s}";
                 lists.Clear();
 
-                Console.WriteLine($"\nHello \nsay 'add' to add something to your list \nsay 'remove' to delete something from your list \nsay 'view' to view your list");
+                Console.WriteLine("say 'add' to add something to your list \nsay 'remove' to delete something from your list \nsay 'view' to view your list");
                 var listInput = Console.ReadLine();
 
                 if (listInput == "view")
@@ -152,10 +157,16 @@ namespace mySQL_test
                     Liste();
                 }
 
-                //if (listInput == "remove")
-                //{
+                if (listInput == "remove")
+                {
 
-                //}
+                }
+
+                else
+                {
+                    Console.WriteLine("Invalid input!");
+                    Liste();
+                }
             }
         }
     }
