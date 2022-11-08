@@ -6,6 +6,7 @@ using System.Drawing;
 using System.Linq;
 using System.Text;
 using MySql.Data.MySqlClient;
+using static System.Net.Mime.MediaTypeNames;
 
 namespace mySQL_test
 {
@@ -106,12 +107,11 @@ namespace mySQL_test
 
             static void Liste()
             {
-                Console.WriteLine("Hello!");
                 var s = Connection.strProvider;
                 string cs = $@"{s}";
                 lists.Clear();
 
-                Console.WriteLine("say 'add' to add something to your list \nsay 'remove' to delete something from your list \nsay 'view' to view your list");
+                Console.WriteLine("say 'add' to add something to your list \nsay 'remove' to delete something from your list \nsay 'view' to view your list \nsay 'exit' to end the program");
                 var listInput = Console.ReadLine();
 
                 if (listInput == "view")
@@ -130,7 +130,7 @@ namespace mySQL_test
                     }
                     reader.Close();
 
-                    foreach(var item in lists)
+                    foreach (var item in lists)
                     {
                         Console.WriteLine(item);
                     }
@@ -159,9 +159,38 @@ namespace mySQL_test
 
                 if (listInput == "remove")
                 {
+                    Console.Clear();
+                    using var remCon = new MySqlConnection(cs);
+                    remCon.Open();
 
+                    var viewSql = $"SELECT title, entry FROM lists WHERE user_id = {userid};";
+
+                    using var remCmd = new MySqlCommand(viewSql, remCon);
+                    using MySqlDataReader reader = remCmd.ExecuteReader();
+
+                    while (reader.Read())
+                    {
+                        lists.Add(reader.GetValue("title").ToString(), reader.GetValue("entry").ToString());
+                    }
+                    reader.Close();
+
+                    foreach (var item in lists)
+                    {
+                        Console.WriteLine(item);
+                    }
+
+                    Console.WriteLine("\nWrite the title of the nore you want to remove: ");
+                    var input = Console.ReadLine();
+
+                    remCmd.CommandText = $"DELETE FROM lists WHERE title = '{input}' AND user_id = {userid};";
+                    remCmd.ExecuteNonQuery();
+
+                    Console.WriteLine("Removed Successfully!");
                 }
-
+                if (listInput == "exit")
+                {
+                    Environment.Exit(1);
+                }
                 else
                 {
                     Console.WriteLine("Invalid input!");
