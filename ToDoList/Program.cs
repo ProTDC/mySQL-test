@@ -112,10 +112,11 @@ namespace mySQL_test
                 lists.Clear();
 
                 Console.WriteLine("say 'add' to add something to your list \nsay 'remove' to delete something from your list \nsay 'view' to view your list \nsay 'exit' to end the program");
-                var listInput = Console.ReadLine();
+                var listInput = Console.ReadLine().ToLower(); 
 
                 if (listInput == "view")
                 {
+                    Console.Clear();
                     using var viewCon = new MySqlConnection(cs);
                     viewCon.Open();
 
@@ -134,13 +135,14 @@ namespace mySQL_test
                     {
                         Console.WriteLine(item);
                     }
-
+                    Console.Write("\n");
                     lists.Clear();
                     Liste();
                 }
 
                 if (listInput == "add")
                 {
+                    Console.Clear();
                     using var addCon = new MySqlConnection(cs);
                     addCon.Open();
 
@@ -179,7 +181,7 @@ namespace mySQL_test
                         Console.WriteLine(item);
                     }
 
-                    Console.WriteLine("\nWrite the title of the nore you want to remove: ");
+                    Console.WriteLine("\nWrite the title of the note you want to remove: ");
                     var input = Console.ReadLine();
 
                     remCmd.CommandText = $"DELETE FROM lists WHERE title = '{input}' AND user_id = {userid};";
@@ -187,10 +189,12 @@ namespace mySQL_test
 
                     Console.WriteLine("Removed Successfully!");
                 }
+
                 if (listInput == "exit")
                 {
                     Environment.Exit(1);
                 }
+
                 else
                 {
                     Console.WriteLine("Invalid input!");
